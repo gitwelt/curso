@@ -1,0 +1,28 @@
+html{
+    background-color: rgb(22, 22, 22);
+}
+
+.texto{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#containerlogin{
+    border: thick, solid, #383838;
+    border-radius: 21px;
+}
+
+#botoes{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.botao{
+    border: 0;
+    border-radius: 25px;
+    margin: 9px;
+    height: 26px;
+    width: 88px;
+    font-weight: bolder;
+}

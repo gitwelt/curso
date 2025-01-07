@@ -1,26 +1,24 @@
 <html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
-        <title>
-            Login
-        </title>
-    <link rel="stylesheet" href="login.css">
+        <meta charset="UTF-8" />
+        <title>Login</title>
+        <link rel="stylesheet" href="login.css" />
     </head>
 
     <body>
         <form action="/login" method="post">
-            <fieldset>
-                <legend>Login</legend>
-                <label for="nomeusuario">Nome de usuário:</label>
-                <input type="text" id="nomeusuario"\>
-                <br>
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha"\>
-                <br>
-                <br>
+            <fieldset id="containerlogin">
+                <legend class="texto">Login</legend>
+                <label for="nomeusuario" class="texto">Nome de usuário:</label>
+                <input type="text" id="nomeusuario" />
+                <br />
+                <label for="senha" class="texto">Senha:</label>
+                <input type="password" id="senha" />
+                <br />
+                <br />
                 <div id="botoes">
-                    <input type="reset" value="Limpar">
-                    <input type="submit"value="Enviar">
+                    <input type="reset" value="Limpar" class="botao" />
+                    <input type="submit" value="Enviar" class="botao" />
                 </div>
             </fieldset>
         </form>
