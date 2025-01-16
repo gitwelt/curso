@@ -4,5 +4,22 @@
   },
   "devDependencies": {
     "typescript": "^5.7.3"
-  }
+  },
+  "name": "curso",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitwelt/curso.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitwelt/curso/issues"
+  },
+  "homepage": "https://github.com/gitwelt/curso#readme"
 }
